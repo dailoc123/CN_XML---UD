@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANLYKARAOKE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="karaoke.xsd">
+
+    <Khach_Hangs>
+        <Khach_Hang>
+            <ma_khach_hang>KH001</ma_khach_hang>
+            <ten_khach_hang>Pham Tuan Anh</ten_khach_hang>
+            <so_dien_thoai>0905123456</so_dien_thoai>
+            <email>tuananhpham@gmail.com</email>
+            <dia_chi>TP HCM</dia_chi>
+            <ngay_dang_ky>2023-01-05</ngay_dang_ky>
+        </Khach_Hang>
+
+        <Khach_Hang>
+            <ma_khach_hang>KH002</ma_khach_hang>
+            <ten_khach_hang>Tran Minh Khoa</ten_khach_hang>
+            <so_dien_thoai>0906234567</so_dien_thoai>
+            <email>minhkhoatran@gmail.com</email>
+            <dia_chi>Long AN</dia_chi>
+            <ngay_dang_ky>2023-02-10</ngay_dang_ky>
+        </Khach_Hang>
+
+        <Khach_Hang>
+            <ma_khach_hang>KH003</ma_khach_hang>
+            <ten_khach_hang>Nguyen Thi Huong</ten_khach_hang>
+            <so_dien_thoai>0907345678</so_dien_thoai>
+            <email>huongnguyen@gmail.com</email>
+            <dia_chi>Tien Giang</dia_chi>
+            <ngay_dang_ky>2023-03-15</ngay_dang_ky>
+        </Khach_Hang>
+
+        <Khach_Hang>
+            <ma_khach_hang>KH004</ma_khach_hang>
+            <ten_khach_hang>Le Van Nam</ten_khach_hang>
+            <so_dien_thoai>0908456789</so_dien_thoai>
+            <email>nam.le@gmail.com</email>
+            <dia_chi>Dong Thap</dia_chi>
+            <ngay_dang_ky>2023-04-20</ngay_dang_ky>
+        </Khach_Hang>
+
+        <Khach_Hang>
+            <ma_khach_hang>KH005</ma_khach_hang>
+            <ten_khach_hang>Do Thi Mai</ten_khach_hang>
+            <so_dien_thoai>0909567890</so_dien_thoai>
+            <email>maido@gmail.com</email>
+            <dia_chi>Vinh Long</dia_chi>
+            <ngay_dang_ky>2023-05-25</ngay_dang_ky>
+        </Khach_Hang>
+
+        <Khach_Hang>
+            <ma_khach_hang>KH006</ma_khach_hang>
+            <ten_khach_hang>Hoang Van Son</ten_khach_hang>
+            <so_dien_thoai>0910678901</so_dien_thoai>
+            <email>sonhoang@gmail.com</email>
+            <dia_chi>Can Tho</dia_chi>
+            <ngay_dang_ky>2023-06-30</ngay_dang_ky>
+        </Khach_Hang>
+
+        <Khach_Hang>
+            <ma_khach_hang>KH007</ma_khach_hang>
+            <ten_khach_hang>Bui Thi Lan</ten_khach_hang>
+            <so_dien_thoai>0911789012</so_dien_thoai>
+            <email>lanbui@gmail.com</email>
+            <dia_chi>Ben Tre</dia_chi>
+            <ngay_dang_ky>2023-07-05</ngay_dang_ky>
+        </Khach_Hang>
+    </Khach_Hangs>
+
+
+    <Nhan_Viens>
+        <Nhan_Vien>
+            <ma_nhan_vien>NV001</ma_nhan_vien>
+            <ten_nhan_vien>Nguyen Van Phuc</ten_nhan_vien>
+            <chuc_vu>Thu ngan</chuc_vu>
+            <so_dien_thoai>0987123456</so_dien_thoai>
+            <luong_co_ban>800</luong_co_ban>
+            <ngay_vao_lam>2022-01-10</ngay_vao_lam>
+        </Nhan_Vien>
+
+        <Nhan_Vien>
+            <ma_nhan_vien>NV002</ma_nhan_vien>
+            <ten_nhan_vien>Tran Thi Bich</ten_nhan_vien>
+            <chuc_vu>Le tan</chuc_vu>
+            <so_dien_thoai>0988234567</so_dien_thoai>
+            <luong_co_ban>700</luong_co_ban>
+            <ngay_vao_lam>2022-02-15</ngay_vao_lam>
+        </Nhan_Vien>
+
+        <Nhan_Vien>
+            <ma_nhan_vien>NV003</ma_nhan_vien>
+            <ten_nhan_vien>Pham Van Cuong</ten_nhan_vien>
+            <chuc_vu>Phuc vu</chuc_vu>
+            <so_dien_thoai>0989345678</so_dien_thoai>
+            <luong_co_ban>650</luong_co_ban>
+            <ngay_vao_lam>2022-03-20</ngay_vao_lam>
+        </Nhan_Vien>
+
+        <Nhan_Vien>
+            <ma_nhan_vien>NV004</ma_nhan_vien>
+            <ten_nhan_vien>Hoang Thi Thao</ten_nhan_vien>
+            <chuc_vu>Phuc vu</chuc_vu>
+            <so_dien_thoai>0990456789</so_dien_thoai>
+            <luong_co_ban>650</luong_co_ban>
+            <ngay_vao_lam>2022-04-25</ngay_vao_lam>
+        </Nhan_Vien>
+
+        <Nhan_Vien>
+            <ma_nhan_vien>NV005</ma_nhan_vien>
+            <ten_nhan_vien>Vu Dinh Tuan</ten_nhan_vien>
+            <chuc_vu>Quan ly</chuc_vu>
+            <so_dien_thoai>0991567890</so_dien_thoai>
+            <luong_co_ban>1200</luong_co_ban>
+            <ngay_vao_lam>2021-05-05</ngay_vao_lam>
+        </Nhan_Vien>
+
+        <Nhan_Vien>
+            <ma_nhan_vien>NV006</ma_nhan_vien>
+            <ten_nhan_vien>Le Thi Hanh</ten_nhan_vien>
+            <chuc_vu>Thu ngan</chuc_vu>
+            <so_dien_thoai>0992678901</so_dien_thoai>
+            <luong_co_ban>800</luong_co_ban>
+            <ngay_vao_lam>2021-06-15</ngay_vao_lam>
+        </Nhan_Vien>
+
+        <Nhan_Vien>
+            <ma_nhan_vien>NV007</ma_nhan_vien>
+            <ten_nhan_vien>Do Van Long</ten_nhan_vien>
+            <chuc_vu>Bao ve</chuc_vu>
+            <so_dien_thoai>0993789012</so_dien_thoai>
+            <luong_co_ban>600</luong_co_ban>
+            <ngay_vao_lam>2021-07-20</ngay_vao_lam>
+        </Nhan_Vien>
+    </Nhan_Viens>
+
+
+    <Loai_Phongs>
+        <Loai_Phong>
+            <ma_loai_phong>LP001</ma_loai_phong>
+            <ten_loai>VIP</ten_loai>
+            <mo_ta>Phong VIP sang trong</mo_ta>
+            <gia_co_ban>50</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP002</ma_loai_phong>
+            <ten_loai>Thuong</ten_loai>
+            <mo_ta>Phong tieu chuan</mo_ta>
+            <gia_co_ban>20</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP003</ma_loai_phong>
+            <ten_loai>Gia dinh</ten_loai>
+            <mo_ta>Phong cho ca gia dinh</mo_ta>
+            <gia_co_ban>40</gia_co_ban>
+        </Loai_Phong>
+    </Loai_Phongs>
+
+
+    <Phongs>
+        <Phong>
+            <ma_phong>P101</ma_phong>
+            <ten_phong>Phong 101</ten_phong>
+            <ma_loai_phong>LP001</ma_loai_phong>
+            <suc_chua>10</suc_chua>
+            <gia_gio>70</gia_gio>
+            <trang_thai>Trong</trang_thai>
+        </Phong>
+
+        <Phong>
+            <ma_phong>P102</ma_phong>
+            <ten_phong>Phong 102</ten_phong>
+            <ma_loai_phong>LP002</ma_loai_phong>
+            <suc_chua>8</suc_chua>
+            <gia_gio>80</gia_gio>
+            <trang_thai>Trong</trang_thai>
+        </Phong>
+
+        <Phong>
+            <ma_phong>P103</ma_phong>
+            <ten_phong>Phong 103</ten_phong>
+            <ma_loai_phong>LP003</ma_loai_phong>
+            <suc_chua>15</suc_chua>
+            <gia_gio>90</gia_gio>
+            <trang_thai>Dang su dung</trang_thai>
+        </Phong>
+
+        <Phong>
+            <ma_phong>P104</ma_phong>
+            <ten_phong>Phong 104</ten_phong>
+            <ma_loai_phong>LP001</ma_loai_phong>
+            <suc_chua>12</suc_chua>
+            <gia_gio>100</gia_gio>
+            <trang_thai>Trong</trang_thai>
+        </Phong>
+
+        <Phong>
+            <ma_phong>P105</ma_phong>
+            <ten_phong>Phong 105</ten_phong>
+            <ma_loai_phong>LP002</ma_loai_phong>
+            <suc_chua>6</suc_chua>
+            <gia_gio>110</gia_gio>
+            <trang_thai>Trong</trang_thai>
+        </Phong>
+
+        <Phong>
+            <ma_phong>P106</ma_phong>
+            <ten_phong>Phong 106</ten_phong>
+            <ma_loai_phong>LP003</ma_loai_phong>
+            <suc_chua>20</suc_chua>
+            <gia_gio>120</gia_gio>
+            <trang_thai>Trong</trang_thai>
+        </Phong>
+
+        <Phong>
+            <ma_phong>P107</ma_phong>
+            <ten_phong>Phong 107</ten_phong>
+            <ma_loai_phong>LP001</ma_loai_phong>
+            <suc_chua>18</suc_chua>
+            <gia_gio>130</gia_gio>
+            <trang_thai>Dang su dung</trang_thai>
+        </Phong>
+    </Phongs>
+
+
+    <Loai_Dich_Vus>
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV001</ma_loai_dv>
+            <ten_loai>Do uong</ten_loai>
+            <mo_ta>Tat ca cac loai nuoc uong</mo_ta>
+        </Loai_Dich_Vu>
+
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV002</ma_loai_dv>
+            <ten_loai>Thuc an</ten_loai>
+            <mo_ta>Mon an nhanh va an vat</mo_ta>
+        </Loai_Dich_Vu>
+
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV003</ma_loai_dv>
+            <ten_loai>Trai cay</ten_loai>
+            <mo_ta>Trai cay tuoi</mo_ta>
+        </Loai_Dich_Vu>
+
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV004</ma_loai_dv>
+            <ten_loai>Trang tri</ten_loai>
+            <mo_ta>Trang tri phong karaoke</mo_ta>
+        </Loai_Dich_Vu>
+
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV005</ma_loai_dv>
+            <ten_loai>Thiet bi</ten_loai>
+            <mo_ta>Thue thiet bi bo sung</mo_ta>
+        </Loai_Dich_Vu>
+
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV006</ma_loai_dv>
+            <ten_loai>Combo</ten_loai>
+            <mo_ta>Goi combo uu dai</mo_ta>
+        </Loai_Dich_Vu>
+
+        <Loai_Dich_Vu>
+            <ma_loai_dv>LDV007</ma_loai_dv>
+            <ten_loai>Khac</ten_loai>
+            <mo_ta>Dich vu khac</mo_ta>
+        </Loai_Dich_Vu>
+    </Loai_Dich_Vus>
+
+
+    <Dich_Vus>
+        <Dich_Vu>
+            <ma_dv>DV001</ma_dv>
+            <ten_dich_vu>Bia Tiger</ten_dich_vu>
+            <ma_loai_dv>LDV001</ma_loai_dv>
+            <don_vi_tinh>Chai</don_vi_tinh>
+            <gia_dv>25</gia_dv>
+            <mo_ta>Bia chai 330ml</mo_ta>
+        </Dich_Vu>
+
+        <Dich_Vu>
+            <ma_dv>DV002</ma_dv>
+            <ten_dich_vu>Coca Cola</ten_dich_vu>
+            <ma_loai_dv>LDV001</ma_loai_dv>
+            <don_vi_tinh>Lon</don_vi_tinh>
+            <gia_dv>20</gia_dv>
+            <mo_ta>Nuoc ngot lon</mo_ta>
+        </Dich_Vu>
+
+        <Dich_Vu>
+            <ma_dv>DV003</ma_dv>
+            <ten_dich_vu>Khoai tay chien</ten_dich_vu>
+            <ma_loai_dv>LDV002</ma_loai_dv>
+            <don_vi_tinh>Dia</don_vi_tinh>
+            <gia_dv>50</gia_dv>
+            <mo_ta>An nhanh</mo_ta>
+        </Dich_Vu>
+
+        <Dich_Vu>
+            <ma_dv>DV004</ma_dv>
+            <ten_dich_vu>Trai cay tong hop</ten_dich_vu>
+            <ma_loai_dv>LDV003</ma_loai_dv>
+            <don_vi_tinh>Dia</don_vi_tinh>
+            <gia_dv>80</gia_dv>
+            <mo_ta>Trai cay tuoi</mo_ta>
+        </Dich_Vu>
+
+        <Dich_Vu>
+            <ma_dv>DV005</ma_dv>
+            <ten_dich_vu>Bong trang tri</ten_dich_vu>
+            <ma_loai_dv>LDV004</ma_loai_dv>
+            <don_vi_tinh>Bo</don_vi_tinh>
+            <gia_dv>100</gia_dv>
+            <mo_ta>Bong trang tri phong</mo_ta>
+        </Dich_Vu>
+
+        <Dich_Vu>
+            <ma_dv>DV006</ma_dv>
+            <ten_dich_vu>Loa phu tro</ten_dich_vu>
+            <ma_loai_dv>LDV005</ma_loai_dv>
+            <don_vi_tinh>Chiec</don_vi_tinh>
+            <gia_dv>150</gia_dv>
+            <mo_ta>Loa cong suat lon</mo_ta>
+        </Dich_Vu>
+
+        <Dich_Vu>
+            <ma_dv>DV007</ma_dv>
+            <ten_dich_vu>Combo 5 bia + trai cay</ten_dich_vu>
+            <ma_loai_dv>LDV006</ma_loai_dv>
+            <don_vi_tinh>Combo</don_vi_tinh>
+            <gia_dv>200</gia_dv>
+            <mo_ta>Combo uu dai</mo_ta>
+        </Dich_Vu>
+    </Dich_Vus>
+
+
+    <Hoa_Dons>
+        <Hoa_Don>
+            <ma_hoa_don>HD001</ma_hoa_don>
+            <ma_khach_hang>KH003</ma_khach_hang>
+            <ma_phong>P101</ma_phong>
+            <ma_nhan_vien>NV001</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-01T18:00:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-01T20:00:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+
+        <Hoa_Don>
+            <ma_hoa_don>HD002</ma_hoa_don>
+            <ma_khach_hang>KH005</ma_khach_hang>
+            <ma_phong>P102</ma_phong>
+            <ma_nhan_vien>NV002</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-02T19:00:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-02T21:00:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Chua thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+
+        <Hoa_Don>
+            <ma_hoa_don>HD003</ma_hoa_don>
+            <ma_khach_hang>KH001</ma_khach_hang>
+            <ma_phong>P103</ma_phong>
+            <ma_nhan_vien>NV003</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-03T20:00:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-03T22:30:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+
+        <Hoa_Don>
+            <ma_hoa_don>HD004</ma_hoa_don>
+            <ma_khach_hang>KH004</ma_khach_hang>
+            <ma_phong>P104</ma_phong>
+            <ma_nhan_vien>NV004</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-04T18:30:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-04T21:00:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Chua thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+
+        <Hoa_Don>
+            <ma_hoa_don>HD005</ma_hoa_don>
+            <ma_khach_hang>KH006</ma_khach_hang>
+            <ma_phong>P105</ma_phong>
+            <ma_nhan_vien>NV005</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-05T17:00:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-05T20:00:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+
+        <Hoa_Don>
+            <ma_hoa_don>HD006</ma_hoa_don>
+            <ma_khach_hang>KH002</ma_khach_hang>
+            <ma_phong>P106</ma_phong>
+            <ma_nhan_vien>NV006</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-06T19:30:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-06T22:00:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+
+        <Hoa_Don>
+            <ma_hoa_don>HD007</ma_hoa_don>
+            <ma_khach_hang>KH007</ma_khach_hang>
+            <ma_phong>P107</ma_phong>
+            <ma_nhan_vien>NV007</ma_nhan_vien>
+            <ngay_gio_bat_dau>2023-08-07T18:00:00</ngay_gio_bat_dau>
+            <ngay_gio_ket_thuc>2023-08-07T21:00:00</ngay_gio_ket_thuc>
+            <trang_thai_thanh_toan>Chua thanh toan</trang_thai_thanh_toan>
+        </Hoa_Don>
+    </Hoa_Dons>
+
+
+    <Chi_Tiet_Hoa_Dons>
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT001</ma_chi_tiet>
+            <ma_hoa_don>HD001</ma_hoa_don>
+            <ma_dv>DV001</ma_dv>
+            <so_luong>5</so_luong>
+            <don_gia>25</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT002</ma_chi_tiet>
+            <ma_hoa_don>HD001</ma_hoa_don>
+            <ma_dv>DV003</ma_dv>
+            <so_luong>2</so_luong>
+            <don_gia>50</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT003</ma_chi_tiet>
+            <ma_hoa_don>HD002</ma_hoa_don>
+            <ma_dv>DV002</ma_dv>
+            <so_luong>3</so_luong>
+            <don_gia>20</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT004</ma_chi_tiet>
+            <ma_hoa_don>HD003</ma_hoa_don>
+            <ma_dv>DV004</ma_dv>
+            <so_luong>1</so_luong>
+            <don_gia>80</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT005</ma_chi_tiet>
+            <ma_hoa_don>HD004</ma_hoa_don>
+            <ma_dv>DV005</ma_dv>
+            <so_luong>1</so_luong>
+            <don_gia>100</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT006</ma_chi_tiet>
+            <ma_hoa_don>HD005</ma_hoa_don>
+            <ma_dv>DV006</ma_dv>
+            <so_luong>1</so_luong>
+            <don_gia>150</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT007</ma_chi_tiet>
+            <ma_hoa_don>HD007</ma_hoa_don>
+            <ma_dv>DV007</ma_dv>
+            <so_luong>1</so_luong>
+            <don_gia>200</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+        <Chi_Tiet_Hoa_Don>
+            <ma_chi_tiet>CT008</ma_chi_tiet>
+            <ma_hoa_don>HD006</ma_hoa_don>
+            <ma_dv>DV002</ma_dv>
+            <so_luong>2</so_luong>
+            <don_gia>20</don_gia>
+        </Chi_Tiet_Hoa_Don>
+
+    </Chi_Tiet_Hoa_Dons>
+
+</QUANLYKARAOKE>

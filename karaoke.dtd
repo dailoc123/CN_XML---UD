@@ -1,0 +1,118 @@
+<!ELEMENT QUANLYKARAOKE (
+    Khach_Hangs,
+    Nhan_Viens,
+    Loai_Phongs,
+    Phongs,
+    Loai_Dich_Vus,
+    Dich_Vus,
+    Hoa_Dons,
+    Chi_Tiet_Hoa_Dons
+)>
+
+<!ELEMENT Khach_Hangs (Khach_Hang*)>
+<!ELEMENT Khach_Hang (
+    ma_khach_hang,
+    ten_khach_hang,
+    so_dien_thoai,
+    email,
+    dia_chi,
+    ngay_dang_ky
+)>
+<!ELEMENT ma_khach_hang (#PCDATA)>
+<!ELEMENT ten_khach_hang (#PCDATA)>
+<!ELEMENT so_dien_thoai (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT dia_chi (#PCDATA)>
+<!ELEMENT ngay_dang_ky (#PCDATA)>
+
+<!ELEMENT Nhan_Viens (Nhan_Vien*)>
+<!ELEMENT Nhan_Vien (
+    ma_nhan_vien,
+    ten_nhan_vien,
+    chuc_vu,
+    so_dien_thoai,
+    luong_co_ban,
+    ngay_vao_lam
+)>
+<!ELEMENT ma_nhan_vien (#PCDATA)>
+<!ELEMENT ten_nhan_vien (#PCDATA)>
+<!ELEMENT chuc_vu (#PCDATA)>
+<!ELEMENT luong_co_ban (#PCDATA)>
+<!ELEMENT ngay_vao_lam (#PCDATA)>
+
+<!ELEMENT Loai_Phongs (Loai_Phong*)>
+<!ELEMENT Loai_Phong (
+    ma_loai_phong,
+    ten_loai_phong,
+    mo_ta,
+    gia_co_ban
+)>
+<!ELEMENT ma_loai_phong (#PCDATA)>
+<!ELEMENT ten_loai_phong (#PCDATA)>
+<!ELEMENT mo_ta (#PCDATA)>
+<!ELEMENT gia_co_ban (#PCDATA)>
+
+<!ELEMENT Phongs (Phong*)>
+<!ELEMENT Phong (
+    ma_phong,
+    ten_phong,
+    ma_loai_phong,
+    suc_chua,
+    gia_gio,
+    trang_thai
+)>
+<!ELEMENT ma_phong (#PCDATA)>
+<!ELEMENT ten_phong (#PCDATA)>
+<!ELEMENT suc_chua (#PCDATA)>
+<!ELEMENT gia_gio (#PCDATA)>
+<!ELEMENT trang_thai (#PCDATA)>
+
+<!ELEMENT Loai_Dich_Vus (Loai_Dich_Vu*)>
+<!ELEMENT Loai_Dich_Vu (
+    ma_loai_dv,
+    ten_loai,
+    mo_ta
+)>
+<!ELEMENT ma_loai_dv (#PCDATA)>
+<!ELEMENT ten_loai (#PCDATA)>
+
+<!ELEMENT Dich_Vus (Dich_Vu*)>
+<!ELEMENT Dich_Vu (
+    ma_dv,
+    ten_dich_vu,
+    ma_loai_dv,
+    don_vi_tinh,
+    gia_dv,
+    mo_ta
+)>
+<!ELEMENT ma_dv (#PCDATA)>
+<!ELEMENT ten_dich_vu (#PCDATA)>
+<!ELEMENT don_vi_tinh (#PCDATA)>
+<!ELEMENT gia_dv (#PCDATA)>
+
+<!ELEMENT Hoa_Dons (Hoa_Don*)>
+<!ELEMENT Hoa_Don (
+    ma_hoa_don,
+    ma_khach_hang,
+    ma_phong,
+    ma_nhan_vien,
+    ngay_gio_bat_dau,
+    ngay_gio_ket_thuc,
+    trang_thai_thanh_toan
+)>
+<!ELEMENT ma_hoa_don (#PCDATA)>
+<!ELEMENT ngay_gio_bat_dau (#PCDATA)>
+<!ELEMENT ngay_gio_ket_thuc (#PCDATA)>
+<!ELEMENT trang_thai_thanh_toan (#PCDATA)>
+
+<!ELEMENT Chi_Tiet_Hoa_Dons (Chi_Tiet_Hoa_Don*)>
+<!ELEMENT Chi_Tiet_Hoa_Don (
+    ma_chi_tiet,
+    ma_hoa_don,
+    ma_dv,
+    so_luong,
+    don_gia
+)>
+<!ELEMENT ma_chi_tiet (#PCDATA)>
+<!ELEMENT so_luong (#PCDATA)>
+<!ELEMENT don_gia (#PCDATA)>

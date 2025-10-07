@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="QUANLYKARAOKE">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Khach_Hangs"/>
+                <xs:element ref="Nhan_Viens"/>
+                <xs:element ref="Loai_Phongs"/>
+                <xs:element ref="Phongs"/>
+                <xs:element ref="Loai_Dich_Vus"/>
+                <xs:element ref="Dich_Vus"/>
+                <xs:element ref="Hoa_Dons"/>
+                <xs:element ref="Chi_Tiet_Hoa_Dons"/>
+            </xs:sequence>
+        </xs:complexType>
+
+        <xs:key name="PK_KhachHang">
+            <xs:selector xpath="Khach_Hangs/Khach_Hang"/>
+            <xs:field xpath="ma_khach_hang"/>
+        </xs:key>
+
+        <xs:key name="PK_NhanVien">
+            <xs:selector xpath="Nhan_Viens/Nhan_Vien"/>
+            <xs:field xpath="ma_nhan_vien"/>
+        </xs:key>
+
+        <xs:key name="PK_LoaiPhong">
+            <xs:selector xpath="Loai_Phongs/Loai_Phong"/>
+            <xs:field xpath="ma_loai_phong"/>
+        </xs:key>
+
+        <xs:key name="PK_Phong">
+            <xs:selector xpath="Phongs/Phong"/>
+            <xs:field xpath="ma_phong"/>
+        </xs:key>
+
+        <xs:key name="PK_LoaiDichVu">
+            <xs:selector xpath="Loai_Dich_Vus/Loai_Dich_Vu"/>
+            <xs:field xpath="ma_loai_dv"/>
+        </xs:key>
+
+        <xs:key name="PK_DichVu">
+            <xs:selector xpath="Dich_Vus/Dich_Vu"/>
+            <xs:field xpath="ma_dv"/>
+        </xs:key>
+
+        <xs:key name="PK_HoaDon">
+            <xs:selector xpath="Hoa_Dons/Hoa_Don"/>
+            <xs:field xpath="ma_hoa_don"/>
+        </xs:key>
+
+        <xs:key name="PK_ChiTietHoaDon">
+            <xs:selector xpath="Chi_Tiet_Hoa_Dons/Chi_Tiet_Hoa_Don"/>
+            <xs:field xpath="ma_chi_tiet"/>
+        </xs:key>
+
+        <xs:keyref name="FK_HoaDon_KhachHang" refer="PK_KhachHang">
+            <xs:selector xpath="Hoa_Dons/Hoa_Don"/>
+            <xs:field xpath="ma_khach_hang"/>
+        </xs:keyref>
+
+        <xs:keyref name="FK_HoaDon_NhanVien" refer="PK_NhanVien">
+            <xs:selector xpath="Hoa_Dons/Hoa_Don"/>
+            <xs:field xpath="ma_nhan_vien"/>
+        </xs:keyref>
+
+        <xs:keyref name="FK_HoaDon_Phong" refer="PK_Phong">
+            <xs:selector xpath="Hoa_Dons/Hoa_Don"/>
+            <xs:field xpath="ma_phong"/>
+        </xs:keyref>
+
+        <xs:keyref name="FK_ChiTietHoaDon_HoaDon" refer="PK_HoaDon">
+            <xs:selector xpath="Chi_Tiet_Hoa_Dons/Chi_Tiet_Hoa_Don"/>
+            <xs:field xpath="ma_hoa_don"/>
+        </xs:keyref>
+
+        <xs:keyref name="FK_ChiTietHoaDon_DichVu" refer="PK_DichVu">
+            <xs:selector xpath="Chi_Tiet_Hoa_Dons/Chi_Tiet_Hoa_Don"/>
+            <xs:field xpath="ma_dv"/>
+        </xs:keyref>
+
+    </xs:element>
+
+    <xs:element name="Khach_Hangs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Khach_Hang" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_khach_hang" type="xs:string"/>
+                            <xs:element name="ten_khach_hang" type="xs:string"/>
+                            <xs:element name="so_dien_thoai" type="soDienThoaiType"/>
+                            <xs:element name="email" type="xs:string" minOccurs="0"/>
+                            <xs:element name="dia_chi" type="xs:string" minOccurs="0"/>
+                            <xs:element name="ngay_dang_ky" type="xs:date"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="soDienThoaiType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="0\d{9,10}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="Nhan_Viens">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Nhan_Vien" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_nhan_vien" type="xs:string"/>
+                            <xs:element name="ten_nhan_vien" type="xs:string"/>
+                            <xs:element name="chuc_vu" type="xs:string"/>
+                            <xs:element name="so_dien_thoai" type="soDienThoaiType"/>
+                            <xs:element name="luong_co_ban" type="xs:decimal"/>
+                            <xs:element name="ngay_vao_lam" type="xs:date"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Loai_Phongs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Loai_Phong" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_loai_phong" type="xs:string"/>
+                            <xs:element name="ten_loai" type="xs:string"/>
+                            <xs:element name="mo_ta" type="xs:string"/>
+                            <xs:element name="gia_co_ban" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Phongs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Phong" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_phong" type="xs:string"/>
+                            <xs:element name="ten_phong" type="xs:string"/>
+                            <xs:element name="ma_loai_phong" type="xs:string"/>
+                            <xs:element name="suc_chua" type="xs:integer"/>
+                            <xs:element name="gia_gio" type="xs:decimal"/>
+                            <xs:element name="trang_thai" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Loai_Dich_Vus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Loai_Dich_Vu" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_loai_dv" type="xs:string"/>
+                            <xs:element name="ten_loai" type="xs:string"/>
+                            <xs:element name="mo_ta" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Dich_Vus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Dich_Vu" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_dv" type="xs:string"/>
+                            <xs:element name="ten_dich_vu" type="xs:string"/>
+                            <xs:element name="ma_loai_dv" type="xs:string"/>
+                            <xs:element name="don_vi_tinh" type="xs:string"/>
+                            <xs:element name="gia_dv" type="xs:decimal"/>
+                            <xs:element name="mo_ta" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Hoa_Dons">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Hoa_Don" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_hoa_don" type="xs:string"/>
+                            <xs:element name="ma_khach_hang" type="xs:string"/>
+                            <xs:element name="ma_phong" type="xs:string"/>
+                            <xs:element name="ma_nhan_vien" type="xs:string"/>
+                            <xs:element name="ngay_gio_bat_dau" type="xs:dateTime"/>
+                            <xs:element name="ngay_gio_ket_thuc" type="xs:dateTime"/>
+                            <xs:element name="trang_thai_thanh_toan" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Chi_Tiet_Hoa_Dons">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Chi_Tiet_Hoa_Don" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ma_chi_tiet" type="xs:string"/>
+                            <xs:element name="ma_hoa_don" type="xs:string"/>
+                            <xs:element name="ma_dv" type="xs:string"/>
+                            <xs:element name="so_luong" type="xs:integer"/>
+                            <xs:element name="don_gia" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
