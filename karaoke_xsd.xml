@@ -137,25 +137,52 @@
         <Loai_Phong>
             <ma_loai_phong>LP001</ma_loai_phong>
             <ten_loai>VIP</ten_loai>
-            <mo_ta>Phong VIP sang trong</mo_ta>
+            <mo_ta>Phòng VIP sang trọng, trang bị âm thanh cao cấp</mo_ta>
             <gia_co_ban>50</gia_co_ban>
         </Loai_Phong>
 
         <Loai_Phong>
             <ma_loai_phong>LP002</ma_loai_phong>
             <ten_loai>Thuong</ten_loai>
-            <mo_ta>Phong tieu chuan</mo_ta>
-            <gia_co_ban>20</gia_co_ban>
+            <mo_ta>Phòng tiêu chuẩn, phục vụ nhóm nhỏ</mo_ta>
+            <gia_co_ban>25</gia_co_ban>
         </Loai_Phong>
 
         <Loai_Phong>
             <ma_loai_phong>LP003</ma_loai_phong>
             <ten_loai>Gia dinh</ten_loai>
-            <mo_ta>Phong cho ca gia dinh</mo_ta>
+            <mo_ta>Phòng rộng rãi cho cả gia đình</mo_ta>
             <gia_co_ban>40</gia_co_ban>
         </Loai_Phong>
-    </Loai_Phongs>
 
+        <Loai_Phong>
+            <ma_loai_phong>LP004</ma_loai_phong>
+            <ten_loai>Don</ten_loai>
+            <mo_ta>Phòng nhỏ dành cho khách hát một mình</mo_ta>
+            <gia_co_ban>15</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP005</ma_loai_phong>
+            <ten_loai>Doi</ten_loai>
+            <mo_ta>Phòng riêng tư cho cặp đôi, ánh sáng nhẹ</mo_ta>
+            <gia_co_ban>30</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP006</ma_loai_phong>
+            <ten_loai>Nhom</ten_loai>
+            <mo_ta>Phòng dành cho nhóm bạn, trang bị đầy đủ tiện nghi</mo_ta>
+            <gia_co_ban>45</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP007</ma_loai_phong>
+            <ten_loai>HSSV</ten_loai>
+            <mo_ta>Phòng ưu đãi đặc biệt cho học sinh, sinh viên</mo_ta>
+            <gia_co_ban>20</gia_co_ban>
+        </Loai_Phong>
+    </Loai_Phongs>
 
     <Phongs>
         <Phong>
@@ -163,7 +190,7 @@
             <ten_phong>Phong 101</ten_phong>
             <ma_loai_phong>LP001</ma_loai_phong>
             <suc_chua>10</suc_chua>
-            <gia_gio>70</gia_gio>
+            <gia_gio>40</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
 
@@ -172,7 +199,7 @@
             <ten_phong>Phong 102</ten_phong>
             <ma_loai_phong>LP002</ma_loai_phong>
             <suc_chua>8</suc_chua>
-            <gia_gio>80</gia_gio>
+            <gia_gio>25</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
 
@@ -181,47 +208,46 @@
             <ten_phong>Phong 103</ten_phong>
             <ma_loai_phong>LP003</ma_loai_phong>
             <suc_chua>15</suc_chua>
-            <gia_gio>90</gia_gio>
+            <gia_gio>50</gia_gio>
             <trang_thai>Dang su dung</trang_thai>
         </Phong>
 
         <Phong>
             <ma_phong>P104</ma_phong>
             <ten_phong>Phong 104</ten_phong>
-            <ma_loai_phong>LP001</ma_loai_phong>
-            <suc_chua>12</suc_chua>
-            <gia_gio>100</gia_gio>
+            <ma_loai_phong>LP004</ma_loai_phong>
+            <suc_chua>4</suc_chua>
+            <gia_gio>30</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
 
         <Phong>
             <ma_phong>P105</ma_phong>
             <ten_phong>Phong 105</ten_phong>
-            <ma_loai_phong>LP002</ma_loai_phong>
+            <ma_loai_phong>LP005</ma_loai_phong>
             <suc_chua>6</suc_chua>
-            <gia_gio>110</gia_gio>
-            <trang_thai>Trong</trang_thai>
+            <gia_gio>30</gia_gio>
+            <trang_thai>Dang su dung</trang_thai>
         </Phong>
 
         <Phong>
             <ma_phong>P106</ma_phong>
             <ten_phong>Phong 106</ten_phong>
-            <ma_loai_phong>LP003</ma_loai_phong>
-            <suc_chua>20</suc_chua>
-            <gia_gio>120</gia_gio>
+            <ma_loai_phong>LP006</ma_loai_phong>
+            <suc_chua>12</suc_chua>
+            <gia_gio>50</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
 
         <Phong>
             <ma_phong>P107</ma_phong>
             <ten_phong>Phong 107</ten_phong>
-            <ma_loai_phong>LP001</ma_loai_phong>
-            <suc_chua>18</suc_chua>
-            <gia_gio>130</gia_gio>
+            <ma_loai_phong>LP007</ma_loai_phong>
+            <suc_chua>11</suc_chua>
+            <gia_gio>50</gia_gio>
             <trang_thai>Dang su dung</trang_thai>
         </Phong>
     </Phongs>
-
 
     <Loai_Dich_Vus>
         <Loai_Dich_Vu>
@@ -266,7 +292,6 @@
             <mo_ta>Dich vu khac</mo_ta>
         </Loai_Dich_Vu>
     </Loai_Dich_Vus>
-
 
     <Dich_Vus>
         <Dich_Vu>
@@ -333,7 +358,6 @@
         </Dich_Vu>
     </Dich_Vus>
 
-
     <Hoa_Dons>
         <Hoa_Don>
             <ma_hoa_don>HD001</ma_hoa_don>
@@ -343,6 +367,7 @@
             <ngay_gio_bat_dau>2023-08-01T18:00:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-01T20:00:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
 
         <Hoa_Don>
@@ -353,6 +378,7 @@
             <ngay_gio_bat_dau>2023-08-02T19:00:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-02T21:00:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Chua thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
 
         <Hoa_Don>
@@ -363,6 +389,7 @@
             <ngay_gio_bat_dau>2023-08-03T20:00:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-03T22:30:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
 
         <Hoa_Don>
@@ -373,6 +400,7 @@
             <ngay_gio_bat_dau>2023-08-04T18:30:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-04T21:00:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Chua thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
 
         <Hoa_Don>
@@ -383,6 +411,7 @@
             <ngay_gio_bat_dau>2023-08-05T17:00:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-05T20:00:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
 
         <Hoa_Don>
@@ -393,6 +422,7 @@
             <ngay_gio_bat_dau>2023-08-06T19:30:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-06T22:00:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Da thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
 
         <Hoa_Don>
@@ -403,6 +433,7 @@
             <ngay_gio_bat_dau>2023-08-07T18:00:00</ngay_gio_bat_dau>
             <ngay_gio_ket_thuc>2023-08-07T21:00:00</ngay_gio_ket_thuc>
             <trang_thai_thanh_toan>Chua thanh toan</trang_thai_thanh_toan>
+            <!-- tong_tien = thanh_tien + ((gia_co_ban * gia_gio ) + (ngay_gio_ket_thuc - ngay_gio_bat_dau )) -->
         </Hoa_Don>
     </Hoa_Dons>
 
@@ -414,6 +445,7 @@
             <ma_dv>DV001</ma_dv>
             <so_luong>5</so_luong>
             <don_gia>25</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -422,6 +454,7 @@
             <ma_dv>DV003</ma_dv>
             <so_luong>2</so_luong>
             <don_gia>50</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -430,6 +463,7 @@
             <ma_dv>DV002</ma_dv>
             <so_luong>3</so_luong>
             <don_gia>20</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -438,6 +472,7 @@
             <ma_dv>DV004</ma_dv>
             <so_luong>1</so_luong>
             <don_gia>80</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -446,6 +481,7 @@
             <ma_dv>DV005</ma_dv>
             <so_luong>1</so_luong>
             <don_gia>100</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -454,6 +490,7 @@
             <ma_dv>DV006</ma_dv>
             <so_luong>1</so_luong>
             <don_gia>150</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -462,6 +499,7 @@
             <ma_dv>DV007</ma_dv>
             <so_luong>1</so_luong>
             <don_gia>200</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
         <Chi_Tiet_Hoa_Don>
@@ -470,6 +508,7 @@
             <ma_dv>DV002</ma_dv>
             <so_luong>2</so_luong>
             <don_gia>20</don_gia>
+            <!-- thanh_tien = so_luong * don_gia -->
         </Chi_Tiet_Hoa_Don>
 
     </Chi_Tiet_Hoa_Dons>
