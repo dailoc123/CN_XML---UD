@@ -122,23 +122,54 @@
     <Loai_Phongs>
         <Loai_Phong>
             <ma_loai_phong>LP001</ma_loai_phong>
-            <ten_loai_phong>VIP</ten_loai_phong>
-            <mo_ta>Phong VIP sang trong</mo_ta>
+            <ten_loai>VIP</ten_loai>
+            <mo_ta>phong VIP sang trong, trang bi am thanh cao cap</mo_ta>
             <gia_co_ban>50</gia_co_ban>
         </Loai_Phong>
+
         <Loai_Phong>
             <ma_loai_phong>LP002</ma_loai_phong>
-            <ten_loai_phong>Thuong</ten_loai_phong>
-            <mo_ta>Phong tieu chuan</mo_ta>
-            <gia_co_ban>20</gia_co_ban>
+            <ten_loai>Thuong</ten_loai>
+            <mo_ta>phong tieu chuan, phuc vu nhom nho</mo_ta>
+            <gia_co_ban>25</gia_co_ban>
         </Loai_Phong>
+
         <Loai_Phong>
             <ma_loai_phong>LP003</ma_loai_phong>
-            <ten_loai_phong>Gia dinh</ten_loai_phong>
-            <mo_ta>Phong cho ca gia dinh</mo_ta>
+            <ten_loai>Gia dinh</ten_loai>
+            <mo_ta>phong rong rai cho ca gia dinh</mo_ta>
             <gia_co_ban>40</gia_co_ban>
         </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP004</ma_loai_phong>
+            <ten_loai>Don</ten_loai>
+            <mo_ta>phong nho am cung</mo_ta>
+            <gia_co_ban>15</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP005</ma_loai_phong>
+            <ten_loai>Doi</ten_loai>
+            <mo_ta>phong rieng tu cho cac cap doi</mo_ta>
+            <gia_co_ban>30</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP006</ma_loai_phong>
+            <ten_loai>Nhom</ten_loai>
+            <mo_ta>phong cho nhom ban trang thiet bi phu hop</mo_ta>
+            <gia_co_ban>45</gia_co_ban>
+        </Loai_Phong>
+
+        <Loai_Phong>
+            <ma_loai_phong>LP007</ma_loai_phong>
+            <ten_loai>HSSV</ten_loai>
+            <mo_ta>phong duoc thiet ke cho nhom hoc sinh sinh vien</mo_ta>
+            <gia_co_ban>20</gia_co_ban>
+        </Loai_Phong>
     </Loai_Phongs>
+
 
     <Phongs>
         <Phong>
@@ -149,14 +180,16 @@
             <gia_gio>70</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
+
         <Phong>
             <ma_phong>P102</ma_phong>
             <ten_phong>Phong 102</ten_phong>
             <ma_loai_phong>LP002</ma_loai_phong>
             <suc_chua>8</suc_chua>
-            <gia_gio>80</gia_gio>
+            <gia_gio>60</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
+
         <Phong>
             <ma_phong>P103</ma_phong>
             <ten_phong>Phong 103</ten_phong>
@@ -165,39 +198,44 @@
             <gia_gio>90</gia_gio>
             <trang_thai>Dang su dung</trang_thai>
         </Phong>
+
         <Phong>
             <ma_phong>P104</ma_phong>
             <ten_phong>Phong 104</ten_phong>
-            <ma_loai_phong>LP001</ma_loai_phong>
-            <suc_chua>12</suc_chua>
-            <gia_gio>100</gia_gio>
+            <ma_loai_phong>LP004</ma_loai_phong>
+            <suc_chua>4</suc_chua>
+            <gia_gio>40</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
+
         <Phong>
             <ma_phong>P105</ma_phong>
             <ten_phong>Phong 105</ten_phong>
-            <ma_loai_phong>LP002</ma_loai_phong>
+            <ma_loai_phong>LP005</ma_loai_phong>
             <suc_chua>6</suc_chua>
-            <gia_gio>110</gia_gio>
-            <trang_thai>Trong</trang_thai>
+            <gia_gio>55</gia_gio>
+            <trang_thai>Dang su dung</trang_thai>
         </Phong>
+
         <Phong>
             <ma_phong>P106</ma_phong>
             <ten_phong>Phong 106</ten_phong>
-            <ma_loai_phong>LP003</ma_loai_phong>
-            <suc_chua>20</suc_chua>
-            <gia_gio>120</gia_gio>
+            <ma_loai_phong>LP006</ma_loai_phong>
+            <suc_chua>12</suc_chua>
+            <gia_gio>85</gia_gio>
             <trang_thai>Trong</trang_thai>
         </Phong>
+
         <Phong>
             <ma_phong>P107</ma_phong>
             <ten_phong>Phong 107</ten_phong>
-            <ma_loai_phong>LP001</ma_loai_phong>
-            <suc_chua>18</suc_chua>
-            <gia_gio>130</gia_gio>
+            <ma_loai_phong>LP007</ma_loai_phong>
+            <suc_chua>10</suc_chua>
+            <gia_gio>50</gia_gio>
             <trang_thai>Dang su dung</trang_thai>
         </Phong>
     </Phongs>
+
 
     <Loai_Dich_Vus>
         <Loai_Dich_Vu>

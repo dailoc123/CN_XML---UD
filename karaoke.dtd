@@ -43,12 +43,12 @@
 <!ELEMENT Loai_Phongs (Loai_Phong*)>
 <!ELEMENT Loai_Phong (
     ma_loai_phong,
-    ten_loai_phong,
+    ten_loai,
     mo_ta,
     gia_co_ban
 )>
 <!ELEMENT ma_loai_phong (#PCDATA)>
-<!ELEMENT ten_loai_phong (#PCDATA)>
+<!ELEMENT ten_loai (#PCDATA)>
 <!ELEMENT mo_ta (#PCDATA)>
 <!ELEMENT gia_co_ban (#PCDATA)>
 
@@ -74,7 +74,7 @@
     mo_ta
 )>
 <!ELEMENT ma_loai_dv (#PCDATA)>
-<!ELEMENT ten_loai (#PCDATA)>
+
 
 <!ELEMENT Dich_Vus (Dich_Vu*)>
 <!ELEMENT Dich_Vu (
