@@ -107,6 +107,21 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="trangthaithanhtoanType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Chua thanh toan"/>
+            <xs:enumeration value="Da thanh toan"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="trangthaiphongType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Dang su dung"/>
+            <xs:enumeration value="Trong"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
     <xs:element name="Nhan_Viens">
         <xs:complexType>
             <xs:sequence>
@@ -154,7 +169,7 @@
                             <xs:element name="ma_loai_phong" type="xs:string"/>
                             <xs:element name="suc_chua" type="xs:integer"/>
                             <xs:element name="gia_gio" type="xs:decimal"/>
-                            <xs:element name="trang_thai" type="xs:string"/>
+                            <xs:element name="trang_thai" type="trangthaiphongType"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
@@ -209,7 +224,7 @@
                             <xs:element name="ma_nhan_vien" type="xs:string"/>
                             <xs:element name="ngay_gio_bat_dau" type="xs:dateTime"/>
                             <xs:element name="ngay_gio_ket_thuc" type="xs:dateTime"/>
-                            <xs:element name="trang_thai_thanh_toan" type="xs:string"/>
+                            <xs:element name="trang_thai_thanh_toan" type="trangthaithanhtoanType"/>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
