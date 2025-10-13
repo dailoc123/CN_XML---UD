@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QUANLYKARAOKE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="karaoke.xsd">
+<!-- <!DOCTYPE QUANLYKARAOKE SYSTEM "karaoke.dtd">
+<QUANLYKARAOKE> -->
+
+<QUANLYKARAOKE xmlns="http://example.com/karaoke"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://example.com/karaoke karaoke.xsd">
 
     <Khach_Hangs>
         <Khach_Hang>
